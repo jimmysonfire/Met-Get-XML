@@ -14,7 +14,7 @@ import datetime
 # You will need to supply your own API key from the Met office
 # It's easy to register for a key at https://www.metoffice.gov.uk/datapoint
 #
-apiKey = 'key=177a17be-c316-405a-98da-0b080df8f7f5'
+apiKey = '<API KEY>'
 locationsUrl = 'http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/xml/sitelist?res=daily&'
 allLocations = locationsUrl + apiKey
 fcUrl = 'http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/xml/'
