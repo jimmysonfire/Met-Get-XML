@@ -63,13 +63,13 @@ fcTodayDict = dict(fcToday)
 fcTonightDict = dict(fcTonight)
 
 # Display the Forecast.
-print("Today's (" + str(fcPeriodDict['value']) +") daytime forecast: \n" )
+print("Todays (" + str(fcPeriodDict['value']) +") daytime forecast: \n" )
 for k in fcTodayDict.keys():
     fcVal = fcTodayDict.get(k)
     paramUnits = fcParams.get(k)[0]
     paramText = fcParams.get(k)[1]
     print(paramText,fcVal,paramUnits)
-print("\n""Today's (" + str(fcPeriodDict['value']) +") night time forecast: \n" )
+print("\n""Tonights (" + str(fcPeriodDict['value']) +") forecast: \n" )
 for k in fcTonightDict.keys():
     fcVal = fcTonightDict.get(k)
     paramUnits = fcParams.get(k)[0]
